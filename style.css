@@ -1,4 +1,158 @@
-div{
-    background-color: aqua;
-    padding: 10px;
+*{
+    /* margin: 0px; */
+    background-color: #F5F8FF;
+}
+.rohan{
+    background-image: url(images/Hero-bg.png);
+    width: 1440px;
+    height: 746px;
+
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+.first-button{
+    background-color: #4E47FF;
+    color: white;
+    padding:12px 36px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.okk{
+    font-size: 34px;
+    color: blue;
+    font-weight: bold;
+}
+.new-word{
+    color: #252432;
+    font-weight: bold;
+    font-size: 65px;
+}
+.yamen{  
+    display: block;
+    text-align: center;
+    justify-content: center;
+    padding: 0px 250px;
+    margin: 130px 0px 200px 0px; 
+    /* height: 237px; */
+    /* width: 905px; */
+    gap: 37px;
+}
+/* main style */
+.pagol{
+    display: flex;
+    justify-content: space-between;
+    height: 328px;
+    width: 1140px;
+    margin: 100px;
+    gap: 100px;
+}
+.second-part{
+    gap: 23px;  
+}
+.action{
+    font-size: 42px;
+    font-weight: bold;
+}
+.explore{
+    font-size: 24px;
+    color: #252432;
+}
+.first-image {
+  width: 403px;
+  height: 328px;
+  border-radius: 42%;
+  object-fit: cover;
+}
+.dimaria{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.ronaldo-jr{
+    color: blue;
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0;
+}
+.prime-ronaldo{
+    font-size: 20px;
+    color: #000000;
+    margin: 30px;
+}
+.neymar{
+    font-size: 38px;
+    font-weight: bold;
+}
+.goat{
+    background-color: rgba(78, 71,255, 0.1);
+    
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+}
+.messi, .dimaria, .neymar, .ronaldo-jr, .ronaldo, .yamal, .rapinha, .prime-ronaldo{
+    background-color: transparent;
+}
+
+/* users */
+.users{
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.fourth-image{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.loved{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.what{
+    font-size: 42px;
+    font-weight: bold;
+}
+.by{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 12px 0px 6px;
+}
+.image{
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+}
+.third-image{
+    background-color: white;
+    border-radius: 12px;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    padding: 24px;
+}
+.this{
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+.review {
+  font-weight: 500;
+  font-size: 14px;
+  margin: 0;
+}
+.date {
+  font-size: 12px;
+  color: #aaa;
+  margin: 2px 0 0;
+}
+.third-image, .by, .this, .twin{
+    background-color: transparent;
 }
